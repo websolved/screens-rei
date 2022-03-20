@@ -9,4 +9,8 @@ router.get('/login', (req, res) => {
     res.render('login')
 })
 
+router.get('/course', (req, res) => {
+    res.render('course')
+})
+
 module.exports = router
